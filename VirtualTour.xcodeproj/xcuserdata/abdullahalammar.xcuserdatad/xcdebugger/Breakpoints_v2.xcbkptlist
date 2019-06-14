@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtualTour/Model/FlickrAPI.swift"
+            timestampString = "582239578.321241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getPhotosUrls(with:pageNNumber:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static VirtualTour.FlickrAPI.getPhotosUrls(with: __C.CLLocationCoordinate2D, pageNNumber: Swift.Int, completion: (Swift.Optional&lt;Swift.Array&lt;Foundation.URL&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtualTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullahalammar/Desktop/code/ios/VirtualTour/VirtualTour/Model/FlickrAPI.swift"
+                  timestampString = "582145831.6157629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1764">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static VirtualTour.FlickrAPI.getPhotosUrls(with: __C.CLLocationCoordinate2D, pageNNumber: Swift.Int, completion: (Swift.Optional&lt;Swift.Array&lt;Foundation.URL&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "VirtualTour"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/abdullahalammar/Desktop/code/ios/VirtualTour/VirtualTour/Model/FlickrAPI.swift"
+                  timestampString = "582145831.6180381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "287">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
