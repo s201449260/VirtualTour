@@ -40,9 +40,6 @@ class TravelMapViewController: UIViewController , NSFetchedResultsControllerDele
         super.viewWillAppear(animated)
         
 setupFechedResultsController()
-        
-        
-        
     }
     
     override func viewDidDisappear(_ animated: Bool) {

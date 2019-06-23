@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B42740022BFE24700BAF594 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4273FF22BFE24700BAF594 /* LoginViewController.swift */; };
+		5B42740222BFE37100BAF594 /* UdacityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B42740122BFE37100BAF594 /* UdacityAPI.swift */; };
+		5B42740422BFE3B500BAF594 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B42740322BFE3B500BAF594 /* Global.swift */; };
 		5B84BF9D22AA692F00456D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B84BF9C22AA692F00456D7D /* AppDelegate.swift */; };
 		5B84BFA222AA692F00456D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B84BFA022AA692F00456D7D /* Main.storyboard */; };
 		5B84BFA522AA692F00456D7D /* VirtualTour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B84BFA322AA692F00456D7D /* VirtualTour.xcdatamodeld */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4273FF22BFE24700BAF594 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B42740122BFE37100BAF594 /* UdacityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdacityAPI.swift; sourceTree = "<group>"; };
+		5B42740322BFE3B500BAF594 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		5B84BF9922AA692F00456D7D /* VirtualTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B84BF9C22AA692F00456D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B84BFA122AA692F00456D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +93,8 @@
 				5BA5B79822AE475E005E1A77 /* DataController.swift */,
 				5BA5B7A422AE5186005E1A77 /* CustomImageView.swift */,
 				5BA5B7A622AE8849005E1A77 /* Constants.swift */,
+				5B42740122BFE37100BAF594 /* UdacityAPI.swift */,
+				5B42740322BFE3B500BAF594 /* Global.swift */,
 			);
 			path = VirtualTour;
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 			children = (
 				5BB9644822AB75EC00F1D5EB /* TravelMapViewController.swift */,
 				5BB9644A22AB760700F1D5EB /* AlbumViewController.swift */,
+				5B4273FF22BFE24700BAF594 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,15 +200,18 @@
 			files = (
 				5BA5B79922AE475E005E1A77 /* DataController.swift in Sources */,
 				5BA5B79B22AE4C3D005E1A77 /* PinExtension.swift in Sources */,
+				5B42740222BFE37100BAF594 /* UdacityAPI.swift in Sources */,
 				5BB9644B22AB760700F1D5EB /* AlbumViewController.swift in Sources */,
 				5B84BF9D22AA692F00456D7D /* AppDelegate.swift in Sources */,
 				5BA5B7A222AE5069005E1A77 /* UIViewController.swift in Sources */,
 				5B84BFA522AA692F00456D7D /* VirtualTour.xcdatamodeld in Sources */,
 				5BB9644922AB75EC00F1D5EB /* TravelMapViewController.swift in Sources */,
+				5B42740422BFE3B500BAF594 /* Global.swift in Sources */,
 				5BA5B7A522AE5186005E1A77 /* CustomImageView.swift in Sources */,
 				5BB9645222AB818500F1D5EB /* FlickrAPI.swift in Sources */,
 				5BA5B79722AD9C25005E1A77 /* PhotoCollectionViewCell.swift in Sources */,
 				5BA5B79D22AE4C4E005E1A77 /* PhotoExtension.swift in Sources */,
+				5B42740022BFE24700BAF594 /* LoginViewController.swift in Sources */,
 				5BA5B7A722AE8849005E1A77 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
