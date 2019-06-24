@@ -12,13 +12,21 @@ The app has three view controller scenes:
 
 The login view accepts the email address and password that students use to login to the Udacity site. User credentials are not required to be saved upon successful login.
 When the user taps the Login button, the app will attempt to authenticate with Udacity’s servers.
+
+
 ![image](https://user-images.githubusercontent.com/22917499/60045076-8af02700-96cc-11e9-8ad2-99598b687412.png)
+
+
 
 2- Travel Locations Map
 Users will be able to zoom and scroll around the map using standard pinch and drag gestures.
 The center of the map and the zoom level should be persistent. If the app is turned off, the map should return to the same state when it is turned on again.
 Tapping and holding the map drops a new pin. Users can place any number of pins on the map.
 When a pin is tapped, the app will navigate to the Photo Album view associated with the pin.
+
+
+
+
 
 3- Photo Album
 If the user taps a pin that does not yet have a photo album, the app will download Flickr images associated with the latitude and longitude of the pin.
