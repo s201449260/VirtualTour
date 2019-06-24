@@ -25,7 +25,7 @@ Tapping and holding the map drops a new pin. Users can place any number of pins 
 When a pin is tapped, the app will navigate to the Photo Album view associated with the pin.
 
 
-
+![image](https://user-images.githubusercontent.com/22917499/60045075-8af02700-96cc-11e9-94a9-f051e0cad855.png)
 
 
 3- Photo Album
@@ -33,6 +33,10 @@ If the user taps a pin that does not yet have a photo album, the app will downlo
 If no images are found a “No Images” label will be displayed.
 If there are images, then they will be displayed in a collection view.
 While the images are downloading, the photo album is in a temporary “downloading” state in which the New Collection button is disabled. The app should determine how many images are available for the pin location, and display a placeholder image for each
+
+
+
+![image](https://user-images.githubusercontent.com/22917499/60045074-8af02700-96cc-11e9-9985-771d8800dcb0.png)
 
 - Requirements : 
 1- Xcode 10.1 or later
