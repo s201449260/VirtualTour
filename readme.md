@@ -12,9 +12,7 @@ The app has three view controller scenes:
 
 The login view accepts the email address and password that students use to login to the Udacity site. User credentials are not required to be saved upon successful login.
 When the user taps the Login button, the app will attempt to authenticate with Udacity’s servers.
-![image]
-
-(https://user-images.githubusercontent.com/22917499/60045076-8af02700-96cc-11e9-8ad2-99598b687412.png)
+![image](https://user-images.githubusercontent.com/22917499/60045076-8af02700-96cc-11e9-8ad2-99598b687412.png)
 
 2- Travel Locations Map
 Users will be able to zoom and scroll around the map using standard pinch and drag gestures.
