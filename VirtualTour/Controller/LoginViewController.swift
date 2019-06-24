@@ -15,6 +15,7 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailField: UITextField!
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,13 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+           activityIndicator.isHidden = true
+       
+        
+    }
     @IBAction func login(_ sender: UIButton) {
         
         
@@ -39,6 +46,14 @@ class LoginViewController: UIViewController {
                 
                 return
         }
+        
+        
+        DispatchQueue.main.async {
+            self.updateUI(processing: true)
+            
+            self.activityIndicator.isHidden = false
+             self.activityIndicator.startAnimating()
+            
         
         UdacityAPI.PostSession(with: email, password: password) {
             (result, error) in
@@ -73,6 +88,9 @@ class LoginViewController: UIViewController {
                         
                         self.emailField.text = ""
                         self.passwordField.text = ""
+                         self.activityIndicator.isHidden = true
+                        self.activityIndicator.stopAnimating()
+
                         self.performSegue(withIdentifier: "loginToHome", sender: self)
                         
                     }
@@ -85,10 +103,8 @@ class LoginViewController: UIViewController {
                 
             }
             
-            
-            
-            self.updateUI(processing: false)
-            
+     
+            };self.updateUI(processing: false) ;
         }
         
     }
@@ -97,6 +113,8 @@ class LoginViewController: UIViewController {
     func updateUI(processing : Bool) {
         
         DispatchQueue.main.async {
+            
+//            self.activityIndicator.isHidden = !processing
             self.emailField.isUserInteractionEnabled = !processing
             self.passwordField.isUserInteractionEnabled = !processing
             self.loginBtn.isEnabled = !processing

@@ -17,6 +17,7 @@ class TravelMapViewController: UIViewController , NSFetchedResultsControllerDele
     var editMode = false
     var fetchedResultsController : NSFetchedResultsController<Pin>!
     
+    @IBOutlet weak var logoutBtn: UIBarButtonItem!
     @IBOutlet var navigationBar: UINavigationItem!
     
     var context : NSManagedObjectContext {
@@ -35,6 +36,32 @@ class TravelMapViewController: UIViewController , NSFetchedResultsControllerDele
 
 
     }
+    
+    @IBAction func logout(_ sender: UIBarButtonItem) {
+        
+        
+        UdacityAPI.deleteSession {
+            (error) in
+            
+            if let error = error { self.alert(title: "ERROR"  , message : error.localizedDescription )
+                
+                return
+            }
+            
+            DispatchQueue.main.async {
+                
+                self.dismiss(animated: true , completion : nil)
+                
+            }
+            
+        }
+        
+        
+        
+        
+    }
+    
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
